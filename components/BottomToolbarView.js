@@ -153,7 +153,7 @@ class BottomToolbarView extends React.Component {
     });
   }
 
-  getPaceButton() {
+ /* getPaceButton() {
     var icon = Config.icons.play;
     var style = commonStyles.disabledButton;
 
@@ -174,7 +174,7 @@ class BottomToolbarView extends React.Component {
         {button}
       </View>
     );
-  }
+  }*/
 
   render() {
     return (
@@ -188,7 +188,7 @@ class BottomToolbarView extends React.Component {
           <View style={styles.activityIcon}>{Config.getActivityIcon(this.state.currentActivity)}</View>
           <Text style={styles.statusLabel}>{this.state.odometer}km</Text>
         </View>
-        {this.getPaceButton()}
+
       </View>
     );
   }
