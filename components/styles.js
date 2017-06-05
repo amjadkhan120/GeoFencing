@@ -57,10 +57,6 @@ var styles = StyleSheet.create({
   backButtonIcon: {
   	//marginRight: 
   },
-  backButtonText: {
-  	fontSize: 18,
-  	color: '#4f8ef7'
-  },
 
   redButton: {
     backgroundColor: '#FE381E'
